@@ -1,0 +1,68 @@
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.input,
+.select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.button:hover {
+  background-color: #2563eb;
+}
+
+.instance-list {
+  margin-top: 1.5rem;
+}
+
+.instance-list ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.in-view {
+  color: #000;
+}
+
+.out-of-view {
+  color: #aaa;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
